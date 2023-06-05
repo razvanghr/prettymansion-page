@@ -1,0 +1,32 @@
+.fa-card {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 300px;
+  height: 200px;
+}
+
+.fa-card img {
+  width: 300px;
+  height: 200px;
+  transition: all 0.3s ease;
+}
+
+.fa-card h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #be9939;
+  opacity: 0;
+}
+
+.fa-card:hover h1 {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.fa-card:hover img {
+  transition: filter 0.3s ease;
+  filter: brightness(4%) invert(1);
+}

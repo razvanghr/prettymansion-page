@@ -1,0 +1,51 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+  background-color: #222222;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 50px;
+}
+
+.logo-text {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+
+.navigation a:hover {
+  color: #446dab;
+}
+
+.active {
+  color: #be9939;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 320px) {
+  .navigation a {
+    text-align: center;
+  }
+  .nav-links {
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+  }
+
+  .nav-links a {
+    text-align: center;
+  }
+}

@@ -1,0 +1,8 @@
+.rev-box {
+  color: #777777;
+
+  .rev-author {
+    color: #446dab;
+    font-weight: 600;
+  }
+}

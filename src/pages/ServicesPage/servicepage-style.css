@@ -1,0 +1,22 @@
+.service-page {
+}
+
+.service-main {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #446dab;
+  width: 100%;
+}
+
+.service-main h1 {
+  padding: 1rem;
+  color: #be9939;
+  font-size: 2rem;
+}
+
+.service-main img {
+  max-width: 80%;
+}
